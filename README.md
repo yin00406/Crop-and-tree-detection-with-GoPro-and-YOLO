@@ -1,6 +1,6 @@
 ## Crop and tree detection with GoPro and YOLO
 
-Large-scale collection of ground truth data in the field is both labor-intensive and time-consuming. Inspired by NASA Harvest's innovative helmet-based data collection method for staple crops, as demonstrated in the [Street2Sat project](https://www.climatechange.ai/papers/icml2021/74.html), we have developed a new pipeline for collecting ground truth/label data for individual objects such as maize, cassave, mango, and cashew.
+Large-scale collection of ground truth data in the field is both labor-intensive and time-consuming. Inspired by NASA Harvest's innovative helmet-based data collection method for staple crops, as demonstrated in the [Street2Sat project](https://www.climatechange.ai/papers/icml2021/74.html), we have developed a new pipeline for collecting ground truth/label data for individual objects for crops and trees crops such as maize, cashew tree, and cocoa tree. 
 
 In this approach, to calculate the distance between the GoPro camera and the detected crops, it is necessary for users to input an estimated height for target crops. This works well for staple crops because the height of a specific crop is relatively consistent during certain phenological stages. However, for trees or perennial crops, their heights can vary significantly, even if they are planted in the same plantation at the same time. Consequently, we have introduced a method that does not require prior knowledge of the vegetation's height. It can be applied to both row and tree crops.
 
